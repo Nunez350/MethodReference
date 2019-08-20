@@ -1,5 +1,6 @@
 
 //refering a constructor using the new keyword with the help of an interface
+@FunctionalInterface
 interface ConstructorInterface{
     MyConstruct getIt(String m);
 }  

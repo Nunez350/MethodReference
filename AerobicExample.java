@@ -2,9 +2,11 @@
 import java.util.Arrays;
 import java.util.List;
 
+
+
 public class AerobicExample {
    public static void main(String[] args) {
-    List <String> myArray = Arrays.asList("a","b","c","d","e","f","g","h","i","j");
+    List <String> myArray = Arrays.asList("a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j","a","b","c","d","e","f","g","h","i","j");
     
     long start = System.currentTimeMillis();
     myArray.stream().forEach(x ->  System.out.print(x));

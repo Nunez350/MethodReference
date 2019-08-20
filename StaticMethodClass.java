@@ -1,4 +1,5 @@
 //stativ method 
+@FunctionalInterface
 interface FunctionalStaticInterface{  
     void interfaceMethod();  
 }  

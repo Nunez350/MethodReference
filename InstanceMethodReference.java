@@ -1,3 +1,4 @@
+@FunctionalInterface
 interface MyInstanceInterface{
     void interfaceMethod();
 }
